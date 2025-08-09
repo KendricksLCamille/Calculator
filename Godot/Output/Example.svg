@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="duotone-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="duotone 1 rgb(189,11,145) rgb(252,187,13) 1">
+      <feColorMatrix type="matrix" result="grayscale" values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"/>
+      <feComponentTransfer color-interpolation-filters="sRGB">
+        <feFuncR type="gamma" exponent="1.5" amplitude="1" offset="0"/>
+        <feFuncG type="gamma" exponent="1.5" amplitude="1" offset="0"/>
+        <feFuncB type="gamma" exponent="1.5" amplitude="1" offset="0"/>
+      </feComponentTransfer>
+      <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">
+        <feFuncR type="table" tableValues="0.741 0.988"/>
+        <feFuncG type="table" tableValues="0.043 0.733"/>
+        <feFuncB type="table" tableValues="0.569 0.051"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 22.7px; filter: url(#duotone-filter-0);" x="27.667" y="23.46" transform="matrix(1, 0, 0, 1, 88.907425, 18.657753)">Text Input:  1 + 2 * 3 / 4 - 1<tspan x="27.66699981689453" dy="1em">​</tspan><tspan x="27.66699981689453" dy="1em">​</tspan><tspan x="27.66699981689453" dy="1em">​</tspan></text>
+  <g transform="matrix(1, 0, 0, 1, -27.720039, 28.786179)" style="filter: url(#duotone-filter-0);">
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="301.203" y="122.318" transform="matrix(4.172855, 0, 0, 1.119658, -955.250305, -66.797577)">-</text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="394.915" y="134.593">1</text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="216.177" y="172.96" transform="matrix(4.433334, 0, 0, 1.57265, -678.710144, -14.75148)">/</text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="353.241" y="331.93">4</text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="246.433" y="394.57">3</text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="144.953" y="393.545">2</text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="18.671" y="365.668" transform="matrix(1.308022, 0, 0, 1, 123.726105, -129.76503)">1</text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="145.544" y="236.93" transform="matrix(3.005347, 0, 0, 1.73236, -244.599304, -88.377892)">*</text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="75.711" y="295.302" transform="matrix(2.336429, 0, 0, 1.649573, 32.613796, -342.358795)">+</text>
+    <path d="M -336.386 -94.781 H -325.976 L -325.976 -109.781 L -285.976 -89.781 L -325.976 -69.781 L -325.976 -84.781 H -336.386 V -94.781 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0.777245, 0.629198, -0.629198, 0.777245, 550.036926, 363.253601)" bx:shape="arrow -336.386 -109.781 50.41 40 10 40 0 1@6222b21b"/>
+    <path d="M -272.683 -88.651 H -268.566 L -268.566 -103.651 L -228.566 -83.651 L -268.566 -63.651 L -268.566 -78.651 H -272.683 V -88.651 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(-0.724999, 0.68875, -0.68875, -0.724999, 26.059679, 202.85144)" bx:shape="arrow -272.683 -103.651 44.117 40 10 40 0 1@dc9cb89e"/>
+    <path d="M -298.27 -147.289 H -298.27 L -298.27 -162.289 L -249.299 -142.289 L -298.27 -122.289 L -298.27 -137.289 H -298.27 V -147.289 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0.737901, 0.674909, -0.674909, 0.737901, 431.992218, 565.93634)" bx:shape="arrow -298.27 -162.289 48.971 40 10 48.971 0 1@0839224c"/>
+    <path d="M -273.45 -158.217 H -273.45 L -273.45 -173.217 L -217.998 -153.217 L -273.45 -133.217 L -273.45 -148.217 H -273.45 V -158.217 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(-0.847998, 0.53, -0.53, -0.847998, -38.875286, 272.958588)" bx:shape="arrow -273.45 -173.217 55.452 40 10 55.452 0 1@b3394321"/>
+    <path d="M -135.682 -200.331 H -127.162 L -127.162 -215.331 L -87.162 -195.331 L -127.162 -175.331 L -127.162 -190.331 H -135.682 V -200.331 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(-0.664704, 0.747107, -0.747107, -0.664704, -41.178879, 282.766815)" bx:shape="arrow -135.682 -215.331 48.52 40 10 40 0 1@df011632"/>
+    <path d="M -158.604 -198.198 H -142.137 L -142.137 -213.198 L -102.137 -193.198 L -142.137 -173.198 L -142.137 -188.198 H -158.604 V -198.198 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0.495631, 0.868533, -0.868533, 0.495631, 128.675812, 542.610291)" bx:shape="arrow -158.604 -213.198 56.467 40 10 40 0 1@4fefe7e0"/>
+    <path d="M -94.635 -272.296 H -86.663 L -86.663 -287.296 L -46.663 -267.296 L -86.663 -247.296 L -86.663 -262.296 H -94.635 V -272.296 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(0.488942, 0.872316, -0.872316, 0.488942, 64.093544, 373.050385)" bx:shape="arrow -94.635 -287.296 47.972 40 10 40 0 1@89116dd7"/>
+    <path d="M -67.181 -269.364 H -59.5 L -59.5 -284.364 L -19.5 -264.364 L -59.5 -244.364 L -59.5 -259.364 H -67.181 V -269.364 Z" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(-0.553409, 0.832909, -0.832909, -0.553409, -53.306683, 61.93066)" bx:shape="arrow -67.181 -284.364 47.681 40 10 40 0 1@d0d94d70"/>
+  </g>
+</svg>

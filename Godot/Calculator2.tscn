@@ -1,0 +1,189 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/TextOutput.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/NumberButtonInput.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/ButtonInputs.gd" type="Script" id=4]
+
+[node name="Calculator" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TextOutput" type="LineEdit" parent="."]
+margin_right = 1024.0
+margin_bottom = 196.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+editable = false
+caret_blink = true
+caret_blink_speed = 0.5
+script = ExtResource( 2 )
+
+[node name="ButtonInputs" type="HBoxContainer" parent="."]
+margin_top = 200.0
+margin_right = 1024.0
+margin_bottom = 600.0
+rect_min_size = Vector2( 0, 400 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 4 )
+
+[node name="NumberInputs" type="VBoxContainer" parent="ButtonInputs"]
+margin_right = 800.0
+margin_bottom = 400.0
+rect_min_size = Vector2( 800, 0 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 3 )
+
+[node name="SevenToNineButtonInputs" type="HBoxContainer" parent="ButtonInputs/NumberInputs"]
+margin_right = 800.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="7" type="Button" parent="ButtonInputs/NumberInputs/SevenToNineButtonInputs"]
+margin_right = 264.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="8" type="Button" parent="ButtonInputs/NumberInputs/SevenToNineButtonInputs"]
+margin_left = 268.0
+margin_right = 532.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="9" type="Button" parent="ButtonInputs/NumberInputs/SevenToNineButtonInputs"]
+margin_left = 536.0
+margin_right = 800.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="FourToSixInputs" type="HBoxContainer" parent="ButtonInputs/NumberInputs"]
+margin_top = 101.0
+margin_right = 800.0
+margin_bottom = 198.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="4" type="Button" parent="ButtonInputs/NumberInputs/FourToSixInputs"]
+margin_right = 264.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="5" type="Button" parent="ButtonInputs/NumberInputs/FourToSixInputs"]
+margin_left = 268.0
+margin_right = 532.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="6" type="Button" parent="ButtonInputs/NumberInputs/FourToSixInputs"]
+margin_left = 536.0
+margin_right = 800.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="OneToThreeInputs" type="HBoxContainer" parent="ButtonInputs/NumberInputs"]
+margin_top = 202.0
+margin_right = 800.0
+margin_bottom = 299.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="1" type="Button" parent="ButtonInputs/NumberInputs/OneToThreeInputs"]
+margin_right = 264.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="2" type="Button" parent="ButtonInputs/NumberInputs/OneToThreeInputs"]
+margin_left = 268.0
+margin_right = 532.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="3" type="Button" parent="ButtonInputs/NumberInputs/OneToThreeInputs"]
+margin_left = 536.0
+margin_right = 800.0
+margin_bottom = 97.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="0" type="Button" parent="ButtonInputs/NumberInputs"]
+margin_top = 303.0
+margin_right = 800.0
+margin_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="FunctionInputs" type="VBoxContainer" parent="ButtonInputs"]
+margin_left = 804.0
+margin_right = 1024.0
+margin_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Add" type="Button" parent="ButtonInputs/FunctionInputs"]
+margin_right = 220.0
+margin_bottom = 63.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "+"
+
+[node name="Subtract" type="Button" parent="ButtonInputs/FunctionInputs"]
+margin_top = 67.0
+margin_right = 220.0
+margin_bottom = 130.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "-"
+
+[node name="Multiply" type="Button" parent="ButtonInputs/FunctionInputs"]
+margin_top = 134.0
+margin_right = 220.0
+margin_bottom = 197.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "*"
+
+[node name="Divide" type="Button" parent="ButtonInputs/FunctionInputs"]
+margin_top = 201.0
+margin_right = 220.0
+margin_bottom = 265.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "/"
+
+[node name="Equal" type="Button" parent="ButtonInputs/FunctionInputs"]
+margin_top = 269.0
+margin_right = 220.0
+margin_bottom = 332.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "="
+
+[node name="Clear" type="Button" parent="ButtonInputs/FunctionInputs"]
+margin_top = 336.0
+margin_right = 220.0
+margin_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Clear"
+
+[connection signal="resized" from="." to="." method="_on_Calculator_resized"]
